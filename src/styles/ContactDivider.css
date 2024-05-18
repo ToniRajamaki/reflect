@@ -2,16 +2,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-    width: 100vw;
-    background-size: cover;
-    
-    background: url("../../public/images/blueroad.png");
-      height: 16rem; /* Adjust the height as needed */
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed; /* This creates the basic parallax effect on desktop */
-  
+  width: 100vw;
+  height: 100svh; /* Adjust the height as needed */
+  background: 
+    /* linear-gradient(to top, white, transparent 10%, white),  */
+    /* linear-gradient(to bottom, white, transparent 10%, white),  */
+    url("https://images.pexels.com/photos/3831422/pexels-photo-3831422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
 }
+
 
 .contact-h2{
   color: white;

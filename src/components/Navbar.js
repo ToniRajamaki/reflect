@@ -15,35 +15,35 @@ const Navbar = () => {
       <div className='toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 '>
         <a
           href='#home'
-          className='block md:inline-block xl:mx-4 hover:text-secondary px-3 hover:border-b-2 hover:border-secondary hover:-translate-y-1 transition-all  py-3 '>
+          className='font-semibold text-lg block md:inline-block xl:mx-4 hover:text-secondary px-3 hover:border-b-2 hover:border-secondary hover:-translate-y-1 transition-all  py-3 '>
           Home
         </a>
         <a
           href='#services'
-          className='block md:inline-block xl:mx-4 hover:text-secondary px-3 hover:border-b-2 hover:border-secondary hover:-translate-y-1 transition-all  py-3 '>
+          className='font-semibold text-lg block md:inline-block xl:mx-4 hover:text-secondary px-3 hover:border-b-2 hover:border-secondary hover:-translate-y-1 transition-all  py-3 '>
           Services
         </a>
         <a
           href='#aboutus'
-          className='block md:inline-block xl:mx-4 hover:text-secondary px-3 hover:border-b-2 hover:border-secondary hover:-translate-y-1 transition-all  py-3 '>
+          className='font-semibold text-lg block md:inline-block xl:mx-4 hover:text-secondary px-3 hover:border-b-2 hover:border-secondary hover:-translate-y-1 transition-all  py-3 '>
           About us
         </a>
         <a
           href='#gallery'
-          className='block md:inline-block xl:mx-4 hover:text-secondary px-3 hover:border-b-2 hover:border-secondary hover:-translate-y-1 transition-all  py-3 '>
+          className='font-semibold text-lg block md:inline-block xl:mx-4 hover:text-secondary px-3 hover:border-b-2 hover:border-secondary hover:-translate-y-1 transition-all  py-3 '>
           Gallery
         </a>
         <a
           href='#contactUs'
-          className='block md:inline-block xl:mx-4 hover:text-secondary px-3 hover:border-b-2 hover:border-secondary hover:-translate-y-1 transition-all  py-3 '>
+          className='font-semibold text-lg block md:inline-block xl:mx-4 hover:text-secondary px-3 hover:border-b-2 hover:border-secondary hover:-translate-y-1 transition-all  py-3 '>
           Visit Us
         </a>
       </div>
 
       <div className='toggle w-full text-end hidden md:flex md:w-auto px-2 py-2 md:rounded'>
         <a href='tel:+123'>
-          <div className='flex justify-end'>
-            <div className='flex items-center h-10 w-30 rounded-md bg-[#c8a876] text-white font-medium p-2'>
+          <div className='flex justify-end '>
+            <div className='flex items-center gap-2 h-10 w-30 rounded-md bg-secondary  text-white font-medium p-2'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'

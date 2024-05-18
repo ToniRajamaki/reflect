@@ -10,6 +10,7 @@ import Footer from '../components/Footer'
 import CallToActionCard from '../components/CallToActionCard'
 import SellingSection from "../components/SellingSection"
 import SpecialOffer from '../components/SpecialOffer'
+import ContactDivider from "../components/ContactDivider"
 import ContactSection from "./ContactDivider"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -39,7 +40,12 @@ function Home() {
       <BR />
       <Achievements />
       <BR />
+      <BR />
+      <BR />
       <SellingSection />
+      <BR />
+      <BR />
+      <ContactDivider/>
       <BR />
       <Testimonials />
       <BR />
