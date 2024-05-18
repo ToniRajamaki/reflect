@@ -20,11 +20,11 @@ function App() {
           {' '}
           {/* Use Routes instead of Switch */}
           <Route exact path='/' element={<Home />} />
-          <Route path='/about-us' element={<PageAbout />} />
-          <Route path='/vehicles' element={<PageVehicles />} />
-          <Route path='/testimonials' element={<PageTestimonials />} />
-          <Route path='/our-team' element={<PageOurTeam />} />
-          <Route path='/contact' element={<PageContact />} />
+          {/* <Route path='/about-us' element={<PageAbout />} /> */}
+          {/* <Route path='/vehicles' element={<PageVehicles />} /> */}
+          {/* <Route path='/testimonials' element={<PageTestimonials />} /> */}
+          {/* <Route path='/our-team' element={<PageOurTeam />} /> */}
+          {/* <Route path='/contact' element={<PageContact />} /> */}
         </Routes>
       </div>
     </Router>

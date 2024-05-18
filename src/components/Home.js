@@ -27,26 +27,26 @@ const baseURL = "/moto-rental";
 function Home() {
   return (
     <div className='App'>
-      <SpecialOffer />
+      {/* <SpecialOffer /> */}
       <Navbar />
       <Hero />
       <BR />
       <BR />
       {/* <Search /> */}
       <BR />
-      <Inventory />
+      {/* <Inventory /> */}
       <BR />
-      <WhyUs />
+      {/* <WhyUs /> */}
       <BR />
-      <Achievements />
+      {/* <Achievements /> */}
       <BR />
-      <SellingSection />
+      {/* <SellingSection /> */}
       <BR />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <BR />
-      <ContactSection />
+      {/* <ContactSection /> */}
       <BR />
-    <CallToActionCard/>
+    {/* <CallToActionCard/> */}
       <BR />
       
       <Footer />
