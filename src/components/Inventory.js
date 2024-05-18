@@ -8,10 +8,10 @@ function Inventory() {
     <section id="new-features" className="py-8 bg-white sm:py-10 lg:py-16">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl">
-            Boost Your Productivity
+          <h2 className="text-3xl font-bold leading-tight sm:text-4xl xl:text-5xl">
+            Features
           </h2>
-          <p className="mt-4 text-base leading-7 text-gray-600 sm:mt-8">
+          <p className="mt-4 text-base leading-7  sm:mt-8">
             Enhance your workflow with advanced features
           </p>
         </div>

@@ -1,12 +1,10 @@
 import '../styles/Navbar.css'
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom' // Import Link
+import React from 'react'
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <nav class='flex flex-wrap items-center justify-between p-3 '>
+    <nav class='flex flex-wrap items-center justify-between p-3 bg-transparent bg-opacity-0 '>
       <div>
         <img
           src='https://github.com/ToniRajamaki/reflect/blob/main/public/logo_reflect.png?raw=true'
@@ -30,7 +28,7 @@ const Navbar = () => {
           />
         </button>
       </div>
-      <div class=' toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 md:border-none'>
+      <div class='toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 md:border-none'>
         <a
           href='#home'
           class='block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none'>

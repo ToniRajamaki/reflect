@@ -13,10 +13,9 @@ const WhyUs = () => {
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="lg:pr-8 lg:pt-4">
           <div class="lg:max-w-lg">
-            <h2 class="text-base font-semibold leading-7 text-indigo-600">Produce faster</h2>
-            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">An Enterprise API</p>
-            <p class="mt-6 text-lg leading-8 text-gray-600">We've built an API that allows you to scale your podcast
-              production workflow.
+           
+            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Why Choose Reflect?</p>
+            <p class="mt-6 text-lg leading-8 text-gray-600">Boost Your Productivity Today.
             </p>
             <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
               <div class="relative pl-9">
@@ -31,10 +30,9 @@ const WhyUs = () => {
                     <path
                       d="M10.38 1.103a.75.75 0 00-.76 0l-7.25 4.25a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.76 0l7.25-4.25a.75.75 0 000-1.294l-7.25-4.25z">
                     </path>
-                  </svg>Template driven
+                  </svg>Template driven 
                 </dt>
-                <dd class="inline">Inspired by Sendgrid, Mailchimp, and Postmark, we allow you to create and apply
-                  templated content to your media.
+                <dd class="inline"> Fully customizable to fit your needs.
                 </dd>
               </div>
               <div class="relative pl-9">
@@ -45,9 +43,9 @@ const WhyUs = () => {
                       d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z"
                       clip-rule="evenodd"></path>
                   </svg>
-                  Simple, REST
+                  We Care
                 </dt>
-                <dd class="inline">A simple REST API that allows you to create, generate, and manage your content.</dd>
+                <dd class="inline"> 24/7 customer support.</dd>
               </div>
               <div class="relative pl-9">
                 <dt class="inline font-semibold text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -58,8 +56,8 @@ const WhyUs = () => {
                     <path
                       d="M14.5 11.5c.173 0 .345-.007.514-.022l3.754 3.754a2.5 2.5 0 01-3.536 3.536l-4.41-4.41 2.172-2.607c.052-.063.147-.138.342-.196.202-.06.469-.087.777-.067.128.008.257.012.387.012zM6 4.586l2.33 2.33a.452.452 0 01-.08.09L6.8 8.214 4.586 6H3.309a.5.5 0 01-.447-.276l-1.7-3.402a.5.5 0 01.093-.577l.49-.49a.5.5 0 01.577-.094l3.402 1.7A.5.5 0 016 3.31v1.277z">
                     </path>
-                  </svg>Developer friendly </dt>
-                <dd class="inline">Documented and easy to use, we make it easy to integrate with your existing workflow.
+                  </svg>Great user-experience </dt>
+                <dd class="inline">User-friendly interface.
                 </dd>
               </div>
             </dl>

@@ -34,9 +34,10 @@ function Testimonials() {
     <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
 
         <div class="mb-10 space-y-4 px-6 md:px-0">
-            <h2 class="text-center text-2xl font-bold text-gray-800 ">
-                We have some fans.
-            </h2>
+           
+            <h2 className="text-3xl font-semibold leading-tight sm:text-4xl xl:text-5xl">
+            We have some fans
+          </h2>
         </div>
 
 
@@ -44,7 +45,7 @@ function Testimonials() {
 
 
             <div
-                class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white   shadow-gray-600/10 ">
+                class="aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 ">
                 <div class="flex gap-4">
                     <img class="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/12.jpg" alt="user avatar" width="400" height="400" loading="lazy"/>
                     <div>
@@ -62,7 +63,7 @@ function Testimonials() {
 
 
             <div
-                class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white   shadow-gray-600/10 ">
+                class="aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 ">
                 <div class="flex gap-4">
                     <img class="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/14.jpg" alt="user avatar" width="200" height="200" loading="lazy"/>
                     <div>
@@ -77,7 +78,7 @@ function Testimonials() {
 
 
             <div
-                class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white   shadow-gray-600/10 ">
+                class="aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 ">
                 <div class="flex gap-4">
                     <img class="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/18.jpg" alt="user avatar" width="200" height="200" loading="lazy"/>
                     <div>
@@ -93,7 +94,7 @@ function Testimonials() {
 
 
             <div
-                class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white   shadow-gray-600/10 ">
+                class="aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 ">
                 <div class="flex gap-4">
                     <img class="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/2.jpg" alt="user avatar" width="200" height="200" loading="lazy"/>
                     <div>
@@ -109,7 +110,7 @@ function Testimonials() {
 
 
             <div
-                class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white   shadow-gray-600/10 ">
+                class="aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 ">
                 <div class="flex gap-4">
                     <img class="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/62.jpg" alt="user avatar" width="200" height="200" loading="lazy"/>
                     <div>
@@ -125,7 +126,7 @@ function Testimonials() {
 
 
             <div
-                class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white   shadow-gray-600/10 ">
+                class="aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 ">
                 <div class="flex gap-4">
                     <img class="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/19.jpg" alt="user avatar" width="400" height="400" loading="lazy"/>
                     <div>

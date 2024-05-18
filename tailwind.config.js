@@ -5,10 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: { colors: {
-      primary: '#3490dc',     // Replace with your primary color
-      secondary: '#ffed4a',   // Replace with your secondary color
-      accent: '#e3342f',      // Replace with your accent color
-    },},
+        primary: '#ac2dfd',     // Replace with your primary color
+        secondary: '#7076fc',   // Replace with your secondary color
+        accent: '#44d1fd',      // Replace with your accent color
+      },},
   },
   plugins: [],
 }

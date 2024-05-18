@@ -14,11 +14,11 @@ function CallToActionCard() {
       </div>
 
       <div className='mt-24 xl:mx-60 mx-8 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 ' >
-        <div className='relative p-8  border border-gray-200 rounded-2xl shadow-sm flex flex-col'>
+        <div className='relative p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 flex flex-col'>
           <div className='flex-1'>
             <h3 className='text-xl font-semibold '>Free</h3>
             <p className='mt-4 flex items-baseline '>
-              <span className='text-5xl font-extrabold tracking-tight'>$0</span>
+              <span className='text-5xl font-semibold tracking-tight'>$0</span>
               <span className='ml-1 text-xl font-semibold'>/month</span>
             </p>
             <p className='mt-6 '>You just want to discover</p>
@@ -34,7 +34,7 @@ function CallToActionCard() {
                   stroke-width='2'
                   stroke-linecap='round'
                   stroke-linejoin='round'
-                  className='flex-shrink-0 w-6 h-6 text-emerald-500'
+                  className='flex-shrink-0 w-6 h-6 text-primary'
                   aria-hidden='true'>
                   <polyline points='20 6 9 17 4 12'></polyline>
                 </svg>
@@ -51,7 +51,7 @@ function CallToActionCard() {
                   stroke-width='2'
                   stroke-linecap='round'
                   stroke-linejoin='round'
-                  className='flex-shrink-0 w-6 h-6 text-emerald-500'
+                  className='flex-shrink-0 w-6 h-6 text-primary'
                   aria-hidden='true'>
                   <polyline points='20 6 9 17 4 12'></polyline>
                 </svg>
@@ -68,7 +68,7 @@ function CallToActionCard() {
                   stroke-width='2'
                   stroke-linecap='round'
                   stroke-linejoin='round'
-                  className='flex-shrink-0 w-6 h-6 text-emerald-500'
+                  className='flex-shrink-0 w-6 h-6 text-primary'
                   aria-hidden='true'>
                   <polyline points='20 6 9 17 4 12'></polyline>
                 </svg>
@@ -77,19 +77,19 @@ function CallToActionCard() {
             </ul>
           </div>
           <a
-            className='bg-emerald-50 text-emerald-700 hover:bg-emerald-100 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium'
+            className='bg-primary bg-opacity-10 bg-primary hover:bg-emerald-100 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium'
             href='/auth/login'>
             Signup for free
           </a>
         </div>
-        <div className='relative p-8  border border-gray-200 rounded-2xl shadow-sm flex flex-col'>
+        <div className='relative p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 flex flex-col'>
           <div className='flex-1'>
             <h3 className='text-xl font-semibold '>Pro</h3>
-            <p className='absolute top-0 py-1.5 px-4 bg-emerald-500 text-white rounded-full text-xs font-semibold uppercase tracking-wide  transform -translate-y-1/2'>
+            <p className='absolute top-0 py-1.5 px-4 bg-primary text-white rounded-full text-xs font-semibold uppercase tracking-wide  transform -translate-y-1/2'>
               Most popular
             </p>
             <p className='mt-4 flex items-baseline '>
-              <span className='text-5xl font-extrabold tracking-tight'>$12</span>
+              <span className='text-5xl font-semibold tracking-tight'>$12</span>
               <span className='ml-1 text-xl font-semibold'>/month</span>
             </p>
             <p className='mt-6 '>You want to learn and have a personal assistant</p>
@@ -105,7 +105,7 @@ function CallToActionCard() {
                   stroke-width='2'
                   stroke-linecap='round'
                   stroke-linejoin='round'
-                  className='flex-shrink-0 w-6 h-6 text-emerald-500'
+                  className='flex-shrink-0 w-6 h-6 text-primary'
                   aria-hidden='true'>
                   <polyline points='20 6 9 17 4 12'></polyline>
                 </svg>
@@ -122,7 +122,7 @@ function CallToActionCard() {
                   stroke-width='2'
                   stroke-linecap='round'
                   stroke-linejoin='round'
-                  className='flex-shrink-0 w-6 h-6 text-emerald-500'
+                  className='flex-shrink-0 w-6 h-6 text-primary'
                   aria-hidden='true'>
                   <polyline points='20 6 9 17 4 12'></polyline>
                 </svg>
@@ -139,7 +139,7 @@ function CallToActionCard() {
                   stroke-width='2'
                   stroke-linecap='round'
                   stroke-linejoin='round'
-                  className='flex-shrink-0 w-6 h-6 text-emerald-500'
+                  className='flex-shrink-0 w-6 h-6 text-primary'
                   aria-hidden='true'>
                   <polyline points='20 6 9 17 4 12'></polyline>
                 </svg>
@@ -156,7 +156,7 @@ function CallToActionCard() {
                   stroke-width='2'
                   stroke-linecap='round'
                   stroke-linejoin='round'
-                  className='flex-shrink-0 w-6 h-6 text-emerald-500'
+                  className='flex-shrink-0 w-6 h-6 text-primary'
                   aria-hidden='true'>
                   <polyline points='20 6 9 17 4 12'></polyline>
                 </svg>
@@ -173,7 +173,7 @@ function CallToActionCard() {
                   stroke-width='2'
                   stroke-linecap='round'
                   stroke-linejoin='round'
-                  className='flex-shrink-0 w-6 h-6 text-emerald-500'
+                  className='flex-shrink-0 w-6 h-6 text-primary'
                   aria-hidden='true'>
                   <polyline points='20 6 9 17 4 12'></polyline>
                 </svg>
@@ -182,7 +182,7 @@ function CallToActionCard() {
             </ul>
           </div>
           <a
-            className='bg-emerald-500 text-white  hover:bg-emerald-600 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium'
+            className='bg-primary text-white  hover:bg-emerald-600 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium'
             href='/auth/login'>
             Signup for free
           </a>
