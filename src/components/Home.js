@@ -36,7 +36,7 @@ function Home() {
       <BR />
       <Inventory />
       <BR />
-      {/* <WhyUs /> */}
+      <WhyUs />
       <BR />
       {/* <Achievements /> */}
       <BR />
