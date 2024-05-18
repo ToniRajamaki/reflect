@@ -1,0 +1,50 @@
+.slogan-text{
+    font-size: 4em;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    gap: 0.5em;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+
+}
+
+.selling-section {
+   
+  }
+
+  .custom-shape-divider-top-1710665752 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    fill:white;
+}
+.bg-cover{
+    background-image: url('https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/road-bg.png?raw=true');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 76vh;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    opacity: 0.9;
+    background-color: black;
+}
+.transforming-text{
+    /* -webkit-text-stroke: 0.025em white; */
+    font-weight: 800;
+    padding: 0;
+    -webkit-text-stroke: 0.025em var(--font-color);
+
+    margin: 0;
+}

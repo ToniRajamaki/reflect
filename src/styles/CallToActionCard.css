@@ -1,0 +1,77 @@
+.call-to-action{
+}
+.call-to-action-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em 8em;
+    background: linear-gradient(245.59deg, hsl(195, 85%, 70%) 0%,	hsl(200, 86%, 59%) 28.53%, hsl(201, 100%, 45%) 75.52%);
+    /* background: var(--main); */
+    max-width: 59%;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.call-to-action-container h2{
+    color: white;
+    font-size: 2rem;
+    font-weight: 00;
+    margin-right: 1em;
+    margin-bottom: 0.3em;
+}
+
+.call-to-action-container p{
+    color: white;
+    margin-bottom: 1em;
+    width: 90%;
+}
+
+.card-info{
+    text-align: left;
+}
+
+.card-info p{
+    position: relative;
+    z-index: 11;
+
+}
+
+.contact-btn{
+    background-color: white;
+    color: var(--font-color);
+    border: 1px solid var(--font-color);
+    padding: 0.5em 2em;
+    font-weight: 00;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.car-img{
+    width: 30em;
+    padding: 0;
+    position: absolute;
+    top: 0em;
+    right: -15em;
+    z-index: 1;
+    
+}
+
+.images {
+    width: 91%;
+    height: 100px;
+    position: relative;
+  }
+  
+.car-img2{
+    width: 22em;
+    padding: 0;
+    position: absolute;
+    top: 0em;
+    right: -4em;
+    opacity: 0.5;
+}
+

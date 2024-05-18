@@ -1,0 +1,160 @@
+.testimonials{
+    background-color: var(--light-bg);
+    width: 100%;
+    margin: auto;
+
+}
+.testimonials-container{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+
+.featured-container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+    margin: 20px 0;
+    gap: 20px; /* Ensures space between cards */
+  }
+  
+
+
+  .swiper{
+    height: calc(100% + 2em);
+    height: 30em;
+  }
+  
+  
+    
+    /* Optional: Additional customization for the pagination bullets */
+    .swiper-pagination-bullet {
+      width: 12px; /* Adjust the bullet width */
+      height: 12px; /* Adjust the bullet height */
+      opacity: 1; /* Adjust the non-active bullet opacity */
+      --swiper-pagination-bullet-inactive-color: #999999;
+      --swiper-pagination-color: var(--main); /* Sets the pagination bullet color */
+    }
+    
+    .swiper-pagination-bullet-active {
+      /* Specific styles for the active bullet, if needed */
+      
+    }
+    
+  
+  
+  
+  
+
+
+    @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900);
+    @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+    
+    .testimonial-header{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .testimonial-header h2,h4{
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    .name-customer{
+        margin-left: 1.5em;
+    }
+    
+    figure.snip1390 {
+      font-family: 'Roboto', Arial, sans-serif;
+    
+      position: relative;
+      overflow: hidden;
+      margin: 10px;
+      min-width: 28em;
+      max-width: 315px;
+      width: 100%;
+      color: #000000;
+      text-align: center;
+      font-size: 16px;
+      background-color: white;
+      background-color: white;
+      box-shadow: 0 0 10px 0 rgba(63, 182, 240,0.7);
+      padding: 30px;
+      /* background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%); */
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius:17px;
+      transition: all 0.3s;
+    }
+    
+    figure.snip1390:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 10px 0 rgba(63, 182, 240,0.9);
+        color:red;
+    
+    }
+    
+    
+    
+    figure.snip1390 *,
+    figure.snip1390 *:before,
+    figure.snip1390 *:after {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: all 0.35s ease;
+      transition: all 0.35s ease;
+    }
+    figure.snip1390 figcaption {
+      width: 100%;
+    }
+    figure.snip1390 h2,
+    figure.snip1390 h4,
+    figure.snip1390 blockquote {
+      margin: 0;
+    }
+    figure.snip1390 h2,
+    figure.snip1390 h4 {
+      font-weight: 400;
+      color: var(--light-font);
+    }
+    figure.snip1390 h2 {
+      color: var(--font-color);
+    }
+    figure.snip1390 h4 {
+      color: #a6a6a6;
+    }
+    figure.snip1390 blockquote {
+      font-size: 1em;
+      padding-top: 1em;
+      color: var(--light-font);
+      background-color: #ffffff;
+      border-radius: 5px;
+      text-align: left;
+      position: relative;
+    }
+    figure.snip1390 blockquote:before {
+      font-family: 'FontAwesome';
+      content: "\201C";
+      position: absolute;
+      font-size: 11em;
+      opacity: 0.15;
+      color: var(--main);
+      font-style: normal;
+      top: -0.8em;
+        left: 1.7em
+    }
+    figure.snip1390 .profile {
+      width: 5em;
+      border-radius: 50%;
+      display: inline-block;
+      box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+      margin-bottom: 10px;
+      border: solid 5px #A6A57A;
+    }
+    
+
+  

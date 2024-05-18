@@ -1,0 +1,74 @@
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 4rem;
+    text-align: left;
+   
+  }
+  
+  
+  .contact-info {
+    width: 30rem;
+  }
+  
+  .contact-form {
+    width: 30rem;
+    text-align: left;
+  }
+  
+
+
+  .info {
+    display: flex;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .contact-header{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+
+  .info span {
+    margin-left: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc; /* Adjust the color to match your design */
+    border-radius: 4px;
+  }
+  
+  button {
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .contact-form-container {
+      flex-direction: column;
+    }
+    
+    .contact-info, .contact-form {
+      width: 100%;
+    }
+  }
+  

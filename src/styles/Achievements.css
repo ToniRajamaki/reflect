@@ -1,0 +1,53 @@
+.figures-container{
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+    flex-wrap: wrap;
+    max-width: 60%;
+    margin: 0 auto;
+    border-radius: 2em;
+
+}
+
+.after-content:after{
+    content: "  +";
+        font-size: 3em;
+        font-weight: 500;
+        color: var(--main);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.figures-container .figure{
+    width: 15em;
+    height: 15em;
+    box-shadow: rgba(63, 182, 240, 0.3) 0px 4px 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.figure:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 0 rgba(63, 182, 240,0.9);
+    color:red;
+}
+
+
+.figures-container h1{
+    font-size: 2.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--main);
+}
+.figures-container p{
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--font-color);
+}

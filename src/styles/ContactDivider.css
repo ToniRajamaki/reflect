@@ -1,0 +1,56 @@
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 100vw;
+    background-size: cover;
+    
+    background: url("../../public/images/blueroad.png");
+      height: 16rem; /* Adjust the height as needed */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed; /* This creates the basic parallax effect on desktop */
+  
+}
+
+.contact-h2{
+  color: white;
+  font-size: 2rem;
+}
+.contact-section img{
+    filter: brightness(0.5);
+
+}
+
+  .contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 10rem;
+  }
+  
+  
+  
+  .phone-number {
+    margin-left: 10px; /* Spacing between icon and number */
+    color: var(--main); /* Set the color you prefer for the number */
+    font-size: 1.5em; /* Set the size you prefer for the number */
+    z-index: 10;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 1.8); /* Set the background color you prefer for the number */
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  /* Add responsive behavior as needed */
+  @media (max-width: 768px) {
+    .contact-content h2 {
+      font-size: smaller; /* Adjust the size on smaller screens */
+    }
+  
+    .phone-number {
+      font-size: 1em; /* Adjust the size on smaller screens */
+    }
+  }
+  

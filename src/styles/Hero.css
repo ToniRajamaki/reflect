@@ -1,0 +1,119 @@
+.hero-section {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Space between the text and image */
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  background: "V";
+ 
+}
+
+.hero-cover1{
+    background-image: url('https://raw.githubusercontent.com/ToniRajamaki/moto-rental/26ac057dbac091c9de1d1c2c0b374114d740da1d/public/images/low-poly-grid-haikei.svg');
+    background-size: cover;
+    background-repeat: no-repeat; /* Ensures the background covers the whole element */
+    background-position: center; /* Centers the background image */
+    height: 100%; /* Adjust the height as needed, here it's set to full viewport height */
+    width: 100%; /* Ensure it spans the full width */
+    position: absolute;
+    opacity: 6%;
+    top: -9em;
+    z-index: -3;
+}
+.hero-cover3{
+    background-image: url('https://i.etsystatic.com/20205363/r/il/69b959/1932456233/il_fullxfull.1932456233_95qt.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; /* Ensures the background covers the whole element */
+    background-position: center; /* Centers the background image */
+    height: 100%; /* Adjust the height as needed, here it's set to full viewport height */
+    width: 100%; /* Ensure it spans the full width */
+    position: absolute;
+    background-size: 70%;
+    opacity: 3%;
+    z-index: -3;
+}
+.hero-cover2{
+    background-image: url('https://raw.githubusercontent.com/ToniRajamaki/ToniRajamaki/9bb138f0e148b4a907997e9f03a2154ab0e5e2c2/stacked-waves-haikei.svg');
+    background-size: cover;
+    background-repeat: no-repeat; /* Ensures the background covers the whole element */
+    background-position: center; /* Centers the background image */
+    height: 100%; /* Adjust the height as needed, here it's set to full viewport height */
+    width: 100%; /* Ensure it spans the full width */
+    position: absolute;
+    top:0;
+    z-index: -2;
+    margin-top: 13%;
+
+}
+
+.hero-section img{
+  width: 17em;
+
+}
+
+.custom-shape-divider-bottom-1710071034 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+.custom-shape-divider-bottom-1710071034 svg {
+  position: relative;
+  display: block;
+  width: calc(130% + 1.3px);
+  height: 136px;
+}
+
+.custom-shape-divider-bottom-1710071034 .shape-fill {
+  fill: #3FB6F0;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .hero-section {
+      flex-direction: column;
+  }
+}
+
+.content {
+  flex: 1; /* Allows the text content to fill the space */
+  padding-top: 0;
+  margin-top: 0;
+}
+.hero-button{
+}
+
+.hero-image {
+  flex: 1; /* Allows the image to take up equal space */
+  max-width: 42%; /* Limits the image width to half of the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.title {
+  color: var(--font-color);
+  margin-bottom: 0.25em;
+  line-height: 1.15em;
+}
+
+.subtitle {
+  color: var(--light-font);
+  margin-bottom: 3em;
+}
+
+
+

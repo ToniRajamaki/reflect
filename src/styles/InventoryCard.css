@@ -1,0 +1,82 @@
+.inventory-card {
+    border: 1px solid #f0f0f0;
+    border-radius: 21px;
+    width: 24em;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+   background-color: #fff; 
+
+  }
+
+  .inventory-card:hover{
+    box-shadow: 0 0 10px 0 rgba(63, 182, 240,0.9);
+  }
+.text-reviews:hover{
+  cursor: pointer;
+  color:var(--main);
+}
+
+  .card-rating{
+    font-size:1em;
+    color: var(--light-font);
+  }
+  .card-image-container img {
+    width: 100%;
+    display: block;
+  }
+
+  .day-text{
+    color: var(--light-font);
+    font-weight: 400;
+    font-size: 0.7em !important;
+  }
+
+  .card-details {
+    /* padding: 16px; */
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  .card-details h3,.card-rating {
+    color: var(--font-color); /* Set text color for the model name */
+    text-align: left;
+    margin-left: 1.5em;
+    
+  }
+  
+  .card-specs {
+    display: grid;
+    grid-template-columns: 2fr 2fr; /* Adjust the number of columns as needed */
+    margin: 1em 1em 1em 2em;   
+    text-align: left;
+    font-size: 0.9em;
+    color: var(--light-font) /* Adjust the text color as needed */
+  }
+  
+  .card-specs span {
+    display: block; /* Makes each spec appear on a new line */
+    margin-bottom: 4px;
+  }
+  
+  .card-specs svg {
+    color: var(--main); /* Adjust icon color as needed */
+    margin-right: 8px;
+  }
+  
+
+  .card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+    padding: 1em;
+  }
+/* ... other styles ... */
+
+.card-price {
+    font-weight: 600;
+    font-size: 1.7em;
+  }
+  
+ 

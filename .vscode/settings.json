@@ -1,0 +1,22 @@
+{
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#06ff27",
+        "editor.selectionForeground": "#06ff27",
+        "editor.wordHighlightStrongBorder": "#09ff0079",
+        "editor.wordHighlightStrongBackground": "#09ff0000",
+        "editor.selectionHighlightBackground": "#f0f5f138",
+        "editor.wordHighlightBorder": "#09ff0079",
+        "editor.wordHighlightBackground": "#15ff0000",
+        "editor.findMatchHighlightBorder": "#00ff0075",
+        "editorCursor.foreground": "#ffff00"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    "hide-files.files": []
+}
