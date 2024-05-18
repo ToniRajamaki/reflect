@@ -1,115 +1,72 @@
-import React from 'react'
-import '../styles/Inventory.css'
-import InventoryCard from './InventoryCard'
-import Search from '../components/Search'
-
-const bikes = [
-  {
-    model: 'Aprilia RS 660',
-    gear: 'Manual',
-    img: 'https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/appriilia.png?raw=true',
-    year: 2022,
-    engine: 660, // assuming 'cc' as unit
-    mileage: 20000, // assuming 'km/l' as unit
-    price: 129, // assuming 'per day' as unit
-  },
-  {
-    model: 'Vespa GTS 150',
-    gear: 'Automatic',
-    img: 'https://raw.githubusercontent.com/ToniRajamaki/moto-rental/main/public/images/vespa.webp',
-    year: 2005,
-    engine: 150, // assuming 'cc' as unit
-    mileage: 6000, // assuming 'km/l' as unit
-    price: 49, // assuming 'per day' as unit
-  },
-  {
-    model: 'BMW G 310 R',
-    gear: 'Manual',
-    img: 'https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/bmw.png?raw=true',
-    year: 2024,
-    engine: 500, // assuming 'cc' as unit
-    mileage: 39000, // assuming 'km/l' as unit
-    price: 89, // assuming 'per day' as unit
-  },
-  {
-    model: 'Ducati Monster 821',
-    gear: 'Manual',
-    img: 'https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/ducati.png?raw=true',
-    year: 2019,
-    engine: 800, // assuming 'cc' as unit
-    mileage: 8000, // assuming 'km/l' as unit
-    price: 109, // assuming 'per day' as unit
-  },
-  {
-    model: 'Suzuki SV650X',
-    gear: 'Manual',
-    img: 'https://raw.githubusercontent.com/ToniRajamaki/moto-rental/main/public/images/motocross1.webp',
-    year: 2020,
-    engine: 650, // assuming 'cc' as unit
-    mileage: 25000, // assuming 'km/l' as unit
-    price: 109, // assuming 'per day' as unit
-  },
-  {
-    model: 'Harley-Davidson Iron 883',
-    gear: 'Manual',
-    img: 'https://raw.githubusercontent.com/ToniRajamaki/moto-rental/main/public/images/bmw2.webp',
-    year: 2009,
-    engine: 450, // assuming 'cc' as unit
-    mileage: 50000, // assuming 'km/l' as unit
-    price: 99, // assuming 'per day' as unit
-  },
-  {
-    model: 'Honda CB300R',
-    gear: 'Automatic',
-    img: 'https://raw.githubusercontent.com/ToniRajamaki/moto-rental/main/public/images/honda.webp',
-    year: 1992,
-    engine: 125, // assuming 'cc' as unit
-    mileage: 15000, // assuming 'km/l' as unit
-    price: 39, // assuming 'per day' as unit
-  },
-
-  {
-    model: 'Yamaha MT-07',
-    gear: 'Manual',
-    img: 'https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/hero-img2.png?raw=true',
-    year: 2018,
-    engine: 500, // assuming 'cc' as unit
-    mileage: 19000, // assuming 'km/l' as unit
-    price: 99, // assuming 'per day' as unit
-  },
-  {
-    model: 'KTM 390 Duke',
-    gear: 'Manual',
-    img: 'https://raw.githubusercontent.com/ToniRajamaki/moto-rental/main/public/images/ktm.webp',
-    year: 2023,
-    engine: 200, // assuming 'cc' as unit
-    mileage: 10000, // assuming 'km/l' as unit
-    price: 49, // assuming 'per day' as unit
-  },
-]
+import React from 'react';
+import '../styles/Inventory.css';
+import InventoryCard from './InventoryCard';
+import Search from '../components/Search';
 
 function Inventory() {
   return (
-    <>
-    <div className="cover"></div>
-    <div className='inventory section-content'>
-      <h1>
-        Latest <span className='highlight'>Inventory</span>
-      </h1>
-      <p className='subheader'>
-        Explore Our Vast Inventory Of Reliable Bikes For Different Needs And
-        Find Your Perfect Set Of Wheels.
-      </p>
-    <Search />
-      <div className='inventory-container'>
-        {bikes.map((bike, index) => (
-          <InventoryCard key={index} bike={bike} />
-          ))}
+    <section id="new-features" className="py-8 bg-white sm:py-10 lg:py-16">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="text-center">
+          <h2 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl">
+            Boost Your Productivity
+          </h2>
+          <p className="mt-4 text-base leading-7 text-gray-600 sm:mt-8">
+            Enhance your workflow with advanced features
+          </p>
+        </div>
+        <div className="grid grid-cols-1 mt-10 text-center sm:mt-16 sm:grid-cols-2 sm:gap-x-12 gap-y-12 md:grid-cols-3 md:gap-0 xl:mt-24">
+          <div className="md:p-8 lg:p-14 flex flex-col justify-center items-center">
+            <div className="w-14 h-14 rounded-full bg-purple-200 flex justify-center items-center">
+              <i className="fa-solid fa-chart-column text-3xl text-gray-900"></i>
+            </div>
+            <h3 className="mt-12 text-xl font-bold text-gray-900">Advanced Analytics</h3>
+            <p className="mt-5 text-base text-gray-600">Track and analyze your data with powerful analytics tools. Gain valuable insights for better decision-making.</p>
+          </div>
+    
+          <div className="md:p-8 lg:p-14 md:border-l md:border-gray-200 flex flex-col justify-center items-center">
+            <div className="w-14 h-14 rounded-full bg-teal-200 flex justify-center items-center">
+              <i className="fa-solid fa-truck-fast text-3xl text-gray-900"></i>
+            </div>
+            <h3 className="mt-12 text-xl font-bold text-gray-900">Fast Integration</h3>
+            <p className="mt-5 text-base text-gray-600">Seamlessly integrate with your existing tools and systems for a smooth workflow experience.</p>
+          </div>
+    
+          <div className="md:p-8 lg:p-14 md:border-l md:border-gray-200 flex flex-col justify-center items-center">
+            <div className="w-14 h-14 rounded-full bg-yellow-200 flex justify-center items-center">
+              <i className="fa-solid fa-shield text-3xl text-gray-900"></i>
+            </div>
+            <h3 className="mt-12 text-xl font-bold text-gray-900">Security First</h3>
+            <p className="mt-5 text-base text-gray-600">Ensure the safety of your data with top-notch security features. Your privacy is our priority.</p>
+          </div>
+    
+          <div className="md:p-8 lg:p-14 md:border-t md:border-gray-200 flex flex-col justify-center items-center">
+            <div className="w-14 h-14 rounded-full bg-red-200 flex justify-center items-center">
+              <i className="fa-solid fa-cloud text-3xl text-gray-900"></i>
+            </div>
+            <h3 className="mt-12 text-xl font-bold text-gray-900">Cloud Integration</h3>
+            <p className="mt-5 text-base text-gray-600">Access your data from anywhere with seamless cloud integration. Work without boundaries.</p>
+          </div>
+    
+          <div className="md:p-8 lg:p-14 md:border-l md:border-gray-200 md:border-t flex flex-col justify-center items-center">
+            <div className="w-14 h-14 rounded-full bg-green-200 flex justify-center items-center">
+              <i className="fa-solid fa-pen-nib text-3xl text-gray-900"></i>
+            </div>
+            <h3 className="mt-12 text-xl font-bold text-gray-900">Task Management</h3>
+            <p className="mt-5 text-base text-gray-600">Organize your workflow with efficient task management features. Stay on top of your projects effortlessly.</p>
+          </div>
+    
+          <div className="md:p-8 lg:p-14 md:border-l md:border-gray-200 md:border-t flex flex-col justify-center items-center">
+            <div className="w-14 h-14 rounded-full bg-orange-200 flex justify-center items-center">
+              <i className="fa-solid fa-bolt text-3xl text-gray-900"></i>
+            </div>
+            <h3 className="mt-12 text-xl font-bold text-gray-900">Performance Metrics</h3>
+            <p className="mt-5 text-base text-gray-600">Monitor and measure your performance with comprehensive metrics. Optimize your processes for maximum efficiency.</p>
+          </div>
+        </div>
       </div>
-      <button className='btn button-primary'>Browse All</button>
-    </div>
-          </>
-  )
+    </section>
+  );
 }
 
-export default Inventory
+export default Inventory;

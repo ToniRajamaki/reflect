@@ -34,7 +34,7 @@ function Home() {
       <BR />
       {/* <Search /> */}
       <BR />
-      {/* <Inventory /> */}
+      <Inventory />
       <BR />
       {/* <WhyUs /> */}
       <BR />
