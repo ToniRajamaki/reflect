@@ -1,5 +1,5 @@
 import './App.css'
-import './index.css'; // Ensure this line imports your CSS with Tailwind directives
+import './index.css' // Ensure this line imports your CSS with Tailwind directives
 
 import React from 'react'
 import Home from './components/Home'
@@ -10,7 +10,7 @@ import PageTestimonials from './components/PageTestimonials'
 import PageOurTeam from './components/PageOurTeam'
 import PageContact from './components/PageContact'
 
-const baseURL = '/moto-rental'
+const baseURL = '/reflect'
 
 function App() {
   return (

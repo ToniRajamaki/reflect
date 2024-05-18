@@ -24,7 +24,7 @@ const BR = () => {
   )
 }
 
-const baseURL = "/moto-rental";
+const baseURL = "/reflect";
 
 function Home() {
   return (
