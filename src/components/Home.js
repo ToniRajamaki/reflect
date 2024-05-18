@@ -46,7 +46,7 @@ function Home() {
       <BR />
       <ContactSection />
       <BR />
-    {/* <CallToActionCard/> */}
+    <CallToActionCard/>
       <BR />
       
       <Footer />
