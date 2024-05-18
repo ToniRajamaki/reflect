@@ -10,7 +10,7 @@ let logo2 =
 
 function Footer() {
   return (
-    <footer class="bg-[#1A1D2B]">
+    <footer class="bg-[#1f1f1f]">
     <div class="container mx-auto p-0 md:p-8 xl:px-0">
         <div class="mx-auto max-w-7xl px-6 pb-10 pt-16">
             <div class="xl:grid xl:grid-cols-3 xl:gap-8">
@@ -19,16 +19,17 @@ function Footer() {
                         <a href="/">
                             <div class="flex items-center space-x-2 text-2xl font-medium">
                                 <span>
-                                    <img src="https://www.svgrepo.com/show/452102/slack.svg" alt="AI Logo"
-                                        width="64" height="64" class="w-16"/>
+                                <img
+          src='https://github.com/ToniRajamaki/reflect/blob/main/public/logo_reflect.png?raw=true'
+          alt='logo'
+          width={200}
+        />
                                 </span>
-                                <span class="text-white">AIOps</span>
                             </div>
 
                         </a>
                     </div>
-                    <div class="max-w-md pr-16 text-md text-gray-200">Enhance productivity and
-                        efficiency with cutting-edge artificial intelligence solutions for your business operations.
+                    <div class="max-w-md pr-16 text-md text-gray-200">Discover a seamless way to manage your tasks and projects with Reflect
                     </div>
                     <div class="flex space-x-2">
                         <a href="" target="_blank" class="text-gray-200 hover:text-gray-200">
@@ -150,10 +151,7 @@ function Footer() {
             </div>
             <div class="mt-16 border-t border-gray-400/30 pt-8 sm:mt-20 lg:mt-24">
                 <div class="text-md text-center text-white">
-                    Copyright © 2024 . Crafted with
-                    <span class="text-gray-50">♥</span> by AI enthusiasts at
-                    <a rel="noopener" href="/">AIOps.
-                    </a>
+                    Copyright © 2024. Toni Rajamäki
                 </div>
             </div>
         </div>

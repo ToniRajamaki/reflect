@@ -8,12 +8,7 @@
         "editor.wordHighlightBorder": "#09ff0079",
         "editor.wordHighlightBackground": "#15ff0000",
         "editor.findMatchHighlightBorder": "#00ff0075",
-        "editorCursor.foreground": "#ffff00",
-        "tab.activeBorder": "#77DD77",
-        "titleBar.activeBackground": "#77DD77",
-        "titleBar.activeForeground": "#ffffff",
-        "statusBar.background": "#77DD77",
-        "statusBar.foreground": "#ffffff"
+        "editorCursor.foreground": "#ffff00"
     },
     "files.exclude": {
         "**/.git": true,
