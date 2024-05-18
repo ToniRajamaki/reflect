@@ -10,6 +10,15 @@
         "editor.findMatchHighlightBorder": "#00ff0075",
         "editorCursor.foreground": "#ffff00"
     },
+
+    "tailwindCSS.includeLanguages": {
+        "html": "html",
+        "javascript": "javascript",
+        "css": "css"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,

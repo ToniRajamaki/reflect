@@ -31,6 +31,8 @@ function Home() {
       <Navbar />
       <Hero />
       <BR />
+      <BR />
+
       <Inventory />
       <BR />
       <WhyUs />
