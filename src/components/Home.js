@@ -42,7 +42,7 @@ function Home() {
       <BR />
       <SellingSection />
       <BR />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <BR />
       {/* <ContactSection /> */}
       <BR />
