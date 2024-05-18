@@ -1,4 +1,6 @@
 import './App.css'
+import './index.css'; // Ensure this line imports your CSS with Tailwind directives
+
 import React from 'react'
 import Home from './components/Home'
 import PageAbout from './components/PageAbout'
