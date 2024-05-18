@@ -1,13 +1,9 @@
 .contact-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100vw;
-  height: 100svh; /* Adjust the height as needed */
   background: 
-    /* linear-gradient(to top, white, transparent 10%, white),  */
-    /* linear-gradient(to bottom, white, transparent 10%, white),  */
-    url("https://images.pexels.com/photos/3831422/pexels-photo-3831422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    linear-gradient(to top, white, transparent 30%, white), 
+    linear-gradient(to bottom, white, transparent 70%, white), 
+    url("../../public/images/waves.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed; 

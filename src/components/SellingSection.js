@@ -5,13 +5,9 @@ import "../styles/ContactDivider.css"
 
 function SellingSection() {
   return (
-    <div className='px-4 py-12 mx-auto text-center sm:px-6 lg:py-16 lg:px-8 contact-section'>
-      <p className='text-3xl font-bold leading-normal  text-gray-900  sm:text-4xl'>
-        <span className='dark:text-gray-text bg-clip-text '>Ready to try?</span>
-
-      
-
-
+    <div className='px-4 py-12 mx-auto text-center sm:px-6 lg:py-16 lg:px-8  '>
+      <p className='text-3xl font-bold leading-normal  text-white-900  sm:text-4xl'>
+        <span className='bg-clip-text dark:text-gray-900'>Ready to try?</span>
         <br />
         <span className='bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent'>
           Read the Game-changer.

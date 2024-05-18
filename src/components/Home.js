@@ -19,6 +19,7 @@ const BR = () => {
     <div className='section-break'>
       <br></br> <br></br>
       <br></br> <br></br>
+      <br></br> <br></br>
       </div>
   )
 }
@@ -41,11 +42,8 @@ function Home() {
       <Achievements />
       <BR />
       <BR />
-      <BR />
       <SellingSection />
       <BR />
-      <BR />
-      <ContactDivider/>
       <BR />
       <Testimonials />
       <BR />

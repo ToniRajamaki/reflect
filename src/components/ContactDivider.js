@@ -4,7 +4,7 @@ import { FaPhone } from 'react-icons/fa' // Import phone icon
 
 const ContactSection = () => {
   return (
-    <div className='flex justify-center bg-gray-50 mt-40'>
+    <div className='flex justify-center bg-gray-50 mt-40 contact-section'>
       <div className='max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8'>
         <h2 className='text-center text-2xl font-bold sm:text-4xl'>
           <p>Want updates about big releases and product launches?</p>
