@@ -38,7 +38,7 @@ function Home() {
       <BR />
       <WhyUs />
       <BR />
-      {/* <Achievements /> */}
+      <Achievements />
       <BR />
       {/* <SellingSection /> */}
       <BR />
