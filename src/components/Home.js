@@ -18,7 +18,7 @@ const BR = () => {
     <div className='section-break'>
       <br></br> <br></br>
       <br></br> <br></br>
-    </div>
+      </div>
   )
 }
 
