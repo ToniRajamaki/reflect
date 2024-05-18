@@ -40,7 +40,7 @@ function Home() {
       <BR />
       <Achievements />
       <BR />
-      {/* <SellingSection /> */}
+      <SellingSection />
       <BR />
       {/* <Testimonials /> */}
       <BR />
