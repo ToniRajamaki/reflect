@@ -35,8 +35,8 @@ function Testimonials() {
 
         <div class="mb-10 space-y-4 px-6 md:px-0">
            
-            <h2 className="text-3xl font-semibold leading-tight sm:text-4xl xl:text-5xl">
-            We have some fans
+        <h2 className="text-3xl font-bold leading-tight sm:text-4xl xl:text-5xl">
+            We have some <div className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Fans</div>
           </h2>
         </div>
 

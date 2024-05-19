@@ -8,13 +8,13 @@ function CallToActionCard() {
         <h2 className='text-3xl font-bold tracki text-center mt-12 sm:text-5xl '>
           Pricing
         </h2>
-        <p className='max-w-3xl mx-auto mt-4 text-xl text-center '>
+        <p className='max2mx-auto mt-4 text-xl text-center '>
           Get started on our free plan and upgrade when you are ready.
         </p>
       </div>
 
-      <div className='mt-24 xl:mx-60 mx-8 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 ' >
-        <div className='relative p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 flex flex-col'>
+      <div className='mt-24 lg:mx-8 flex justify-center gap-12 flex-wrap  ' >
+        <div className='relative p-8 m-0 border border-secondary w-96 border-opacity-30  rounded-xl bg-secondary bg-opacity-10   shadow-gray-600/10 flex flex-col'>
           <div className='flex-1'>
             <h3 className='text-xl font-semibold '>Free</h3>
             <p className='mt-4 flex items-baseline '>
@@ -82,7 +82,7 @@ function CallToActionCard() {
             Signup for free
           </a>
         </div>
-        <div className='relative p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 flex flex-col'>
+        <div className='relative p-8 border border-secondary w-96  border-opacity-30  rounded-xl bg-secondary bg-opacity-10   shadow-gray-600/10 flex flex-col'>
           <div className='flex-1'>
             <h3 className='text-xl font-semibold '>Pro</h3>
             <p className='absolute top-0 py-1.5 px-4 bg-primary text-white rounded-full text-xs font-semibold uppercase tracking-wide  transform -translate-y-1/2'>
