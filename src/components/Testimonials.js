@@ -44,7 +44,7 @@ function Testimonials() {
           <div className='aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
             <div className='flex gap-4'>
               <img
-                className='w-12 h-12 rounded-full'
+                className='w-12 h-12 rounded-full '
                 src='https://randomuser.me/api/portraits/women/12.jpg'
                 alt='user avatar'
                 width='400'
@@ -69,10 +69,10 @@ function Testimonials() {
             </p>
           </div>
 
-          <div className='aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
+          <div className='hidden md:block aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
             <div className='flex gap-4'>
               <img
-                className='w-12 h-12 rounded-full'
+                className='w-12 h-12 rounded-full '
                 src='https://randomuser.me/api/portraits/women/14.jpg'
                 alt='user avatar'
                 width='200'
@@ -92,7 +92,7 @@ function Testimonials() {
             </p>
           </div>
 
-          <div className='aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
+          <div className='hidden md:block aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
             <div className='flex gap-4'>
               <img
                 className='w-12 h-12 rounded-full'
@@ -117,7 +117,7 @@ function Testimonials() {
             </p>
           </div>
 
-          <div className='aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
+          <div className='hidden md:block aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
             <div className='flex gap-4'>
               <img
                 className='w-12 h-12 rounded-full'
@@ -167,7 +167,7 @@ function Testimonials() {
           <div className='aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
             <div className='flex gap-4'>
               <img
-                className='w-12 h-12 rounded-full'
+                className='w-12 h-12 rounded-full '
                 src='https://randomuser.me/api/portraits/women/19.jpg'
                 alt='user avatar'
                 width='400'
