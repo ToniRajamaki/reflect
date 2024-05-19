@@ -14,14 +14,15 @@ function SellingSection() {
         </span>
       </p>
       <div className='flex justify-center gap-4 mt-8 font-medium'>
-        <a
+      <a
+        href="#"
+        className="font-semibold text-lg px-5 py-3  leading-6 text-white bg-gradient-to-b from-secondary  to-primary rounded-md transition-transform duration-300 transform hover:brightness-90 focus:outline-none focus:shadow-outline"
+      >
+        Take a Test
+      </a>
+      <a
           href='#'
-          className='px-5 py-3 text-base leading-6 text-white bg-primary  rounded-md hover:bg-indigo-500 -700 focus:outline-none focus:shadow-outline'>
-          Take a Test
-        </a>
-        <a
-          href='#'
-          className='px-5 py-3 text-base leading-6 text-indigo-700  bg-indigo-100  rounded-md hover:text-primary -400 hover:bg-indigo-50 -800 focus:outline-none focus:shadow-outline focus:border-indigo-300'>
+          className='font-semibold text-lg px-5 py-3  leading-6 text-secondary  bg-indigo-100  rounded-md   hover:bg-indigo-200 -800 focus:outline-none focus:shadow-outline focus:border-indigo-300'>
           Download PDF
         </a>
       </div>

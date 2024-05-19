@@ -77,10 +77,10 @@ function CallToActionCard() {
             </ul>
           </div>
           <a
-            className='bg-primary bg-opacity-10 bg-primary hover:bg-emerald-100 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium'
-            href='/auth/login'>
-            Signup for free
-          </a>
+          href='#'
+          className='font-semibold text-lg px-5 py-3  leading-6 text-secondary  bg-indigo-100  rounded-md   hover:bg-indigo-200 -800 focus:outline-none focus:shadow-outline focus:border-indigo-300'>
+          Sign up for free
+        </a>
         </div>
         <div className='relative p-8 border border-secondary w-96  border-opacity-30  rounded-xl bg-secondary bg-opacity-10   shadow-gray-600/10 flex flex-col'>
           <div className='flex-1'>
@@ -182,10 +182,11 @@ function CallToActionCard() {
             </ul>
           </div>
           <a
-            className='bg-primary text-white  hover:bg-emerald-600 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium'
-            href='/auth/login'>
-            Signup for free
-          </a>
+        href="#"
+        className="font-semibold text-lg px-5 py-3  mt-8 leading-6 text-white bg-gradient-to-b from-secondary  to-primary rounded-md transition-transform duration-300 transform hover:brightness-90 focus:outline-none focus:shadow-outline"
+      >
+        Sign up now!
+      </a>
         </div>
       </div>
     </div>

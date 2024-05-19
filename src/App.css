@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700;900&display=swap');
 
 body{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 1.6;
   color: var(--font-color);
 
@@ -12,7 +13,7 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 :root {
@@ -38,7 +39,6 @@ body{
 
 .button-primary {
   color: white;
-  
   background-color: var(--main);
   border: 1px solid white;
   font-weight: 600;
@@ -66,7 +66,7 @@ background-color: var(--dark-main); /* MAIN */
 }
 h1,h2,h3,h4,h5,h6 {
   color: var(--font-color);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .subheader{
@@ -76,7 +76,7 @@ h1,h2,h3,h4,h5,h6 {
   font-size:1.1rem;
   margin-bottom: 3em;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
 
 }
 

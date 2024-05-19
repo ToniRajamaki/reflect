@@ -43,11 +43,12 @@ const HeroSection = () => {
             </p>
             <div className='mt-5 sm:mt-8 sm:flex sm:justify-center'>
               <div className='rounded-md shadow'>
-                <a
-                  className='flex w-full items-center justify-center rounded-md border border-transparent bg-blue-600 px-8 py-3 text-base font-medium text-white hover:bg-blue-700 md:py-4 md:px-10 md:text-lg'
-                  href='#'>
-                  Get Started Now
-                </a>
+              <a
+        href="#"
+        className="font-semibold text-lg px-5 py-3  leading-6 text-white bg-gradient-to-b from-secondary  to-primary rounded-md transition-transform duration-300 transform hover:brightness-90 focus:outline-none focus:shadow-outline"
+      >
+        Get started now
+      </a>
               </div>
             </div>
           </div>

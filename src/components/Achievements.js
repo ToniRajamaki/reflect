@@ -8,7 +8,7 @@ function Achievements() {
   
 
           <h2 className="text-3xl font-bold leading-tight sm:text-4xl xl:text-5xl">
-            Our Achieviements <div className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Shine</div>
+            Our Achieviements <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Shine</span>
           </h2>
     <div
       class="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-y-5 lg:gap-y-0 gap-x-5 place-items-center w-full mx-auto max-w-7xl px-5">

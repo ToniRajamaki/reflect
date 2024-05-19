@@ -9,7 +9,7 @@ function Inventory() {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-bold leading-tight sm:text-4xl xl:text-5xl">
-            Features that make a <div className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">difference</div>
+            Features that make a <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">difference</span>
           </h2>
           <p className="mt-4 text-base leading-7  sm:mt-8">
             Enhance your workflow with advanced features
