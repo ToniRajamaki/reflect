@@ -7,9 +7,9 @@ const ContactSection = () => {
     <div className='flex justify-center bg-gray-50 mt-40 contact-section'>
       <div className='max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8'>
         <h2 className='text-center text-2xl font-bold sm:text-4xl'>
-          <p>Want updates about big releases and product launches?</p>
+          <p data-aos="fade-right" className='text-gray-900'>Want updates about big releases and product launches?</p>
           <p>
-            <span className='bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent'>Sign up for our newsletter.</span>
+            <span data-aos="fade-left" data-aos-delay="500" className='bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent'>Sign up for our newsletter.</span>
           </p>
         </h2>
         <form

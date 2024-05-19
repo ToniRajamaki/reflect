@@ -13,7 +13,7 @@ const HeroSection = () => {
   return (
     <>
       <div className='flex mt-40 w-screen z-10 justify-center items-center  absolute'>
-        <div className='mx-auto mt-10 flex justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 bg-gradient-to-t from-transparent to-white py-20 rounded-2xl'>
+        <div data-aos="fade-up" className='mx-auto mt-10 flex justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 bg-gradient-to-t from-transparent to-white py-20 rounded-2xl'>
           <div className='text-center '>
             <h1 className='text-4xl font-extrabold tracking-tight text-gray-900  sm:text-5xl md:text-6xl'>
               <span className='block xl:inline'>

@@ -9,7 +9,7 @@ const WhyUs = () => {
   <section className="bg-white-900"
   id='about-us'>
   <div className="grid max-w-screen-xl text-left  px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
-    <div className="mr-auto place-self-center lg:col-span-7">
+    <div data-aos="fade-right" className="mr-auto place-self-center lg:col-span-7">
       <h1
         className="max-w-2xl mb-4 text-4xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl ">
         Build lasting <br /><span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Habits</span> &amp; <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Lifestyle</span>.
@@ -36,7 +36,7 @@ const WhyUs = () => {
       </div>
     </div>
 
-    <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
+    <div data-aos="fade-left" className="hidden lg:mt-0 lg:col-span-5 lg:flex ">
       <img src="https://demo.themesberg.com/landwind/images/hero.png" alt="hero image" />
     </div>
 

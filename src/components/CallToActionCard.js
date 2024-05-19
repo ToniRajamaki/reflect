@@ -4,7 +4,7 @@ import '../styles/CallToActionCard.css'
 function CallToActionCard() {
   return (
     <div className='' id='pricing'>
-      <div>
+      <div data-aos="fade-up">
         <h2 className='text-3xl font-bold tracki text-center mt-12 sm:text-5xl '>
           Pricing
         </h2>
@@ -14,7 +14,7 @@ function CallToActionCard() {
       </div>
 
       <div className='mt-24 lg:mx-8 flex justify-center gap-12 flex-wrap  '>
-        <div className='relative p-8 m-0 border border-secondary w-96 border-opacity-30  rounded-xl bg-secondary bg-opacity-10   shadow-gray-600/10 flex flex-col'>
+        <div data-aos="flip-left" className='relative p-8 m-0 border border-secondary w-96 border-opacity-30  rounded-xl bg-secondary bg-opacity-10   shadow-gray-600/10 flex flex-col'>
           <div className='flex-1'>
             <h3 className='text-xl font-semibold '>Free</h3>
             <p className='mt-4 flex items-baseline '>
@@ -82,7 +82,7 @@ function CallToActionCard() {
             Sign up for free
           </a>
         </div>
-        <div className='relative p-8 border border-secondary w-96  border-opacity-30  rounded-xl bg-secondary bg-opacity-10   shadow-gray-600/10 flex flex-col'>
+        <div data-aos="flip-right" className='relative p-8 border border-secondary w-96  border-opacity-30  rounded-xl bg-secondary bg-opacity-10   shadow-gray-600/10 flex flex-col'>
           <div className='flex-1'>
             <h3 className='text-xl font-semibold '>Pro</h3>
             <p className='absolute top-0 py-1.5 px-4 bg-primary text-white rounded-full text-xs font-semibold uppercase tracking-wide  transform -translate-y-1/2'>

@@ -5,14 +5,14 @@ import AnimatedNumbers from 'react-animated-numbers'
 function Achievements() {
   return (
     <section className='flex flex-col mt-20' id='achievement'>
-      <h2 className='text-3xl font-bold leading-tight sm:text-4xl xl:text-5xl'>
+      <h2 data-aos="fade-up" className='text-3xl font-bold leading-tight sm:text-4xl xl:text-5xl'>
         Our Achieviements{' '}
         <span className='bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent'>
           Shine
         </span>
       </h2>
       <div className='mt-10 grid grid-cols-2 lg:grid-cols-4 gap-y-5 lg:gap-y-0 gap-x-5 place-items-center w-full mx-auto max-w-7xl px-5'>
-        <div className='flex flex-col justify-center items-center p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center'>
+        <div data-aos="zoom-in" className='flex flex-col justify-center items-center p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center'>
           <div className='flex flex-row justify-center items-center'>
             <svg
               className='w-[35px] h-[35px] md:w-[50px] md:h-[50px]'
@@ -40,7 +40,7 @@ function Achievements() {
             Expert Chat &amp; Call Minutes
           </p>
         </div>
-        <div className='flex flex-col justify-center items-center p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center'>
+        <div data-aos="zoom-in" className='flex flex-col justify-center items-center p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center'>
           <div className='flex flex-row justify-center items-center'>
             <svg
               className='w-[35px] h-[35px] md:w-[50px] md:h-[50px]'
@@ -69,7 +69,7 @@ function Achievements() {
             Average Expert Rating
           </p>
         </div>
-        <div className='flex flex-col justify-center items-center p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center'>
+        <div data-aos="zoom-in" className='flex flex-col justify-center items-center p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center'>
           <div className='flex flex-row justify-center items-center'>
             <svg
               className='w-[35px] h-[35px] md:w-[50px] md:h-[50px]'
@@ -99,7 +99,7 @@ function Achievements() {
             Sessions Completed
           </p>
         </div>
-        <div className='flex flex-col justify-center items-center p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center'>
+        <div data-aos="zoom-in" className='flex flex-col justify-center items-center p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center'>
           <div className='flex flex-row justify-center items-center'>
             <svg
               className='w-[35px] h-[35px] md:w-[50px] md:h-[50px]'

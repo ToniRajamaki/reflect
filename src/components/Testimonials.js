@@ -32,7 +32,7 @@ function Testimonials() {
     <div className='text-gray-600  pt-8 ' id='reviews'>
       <div className='max-w-7xl mx-auto px-6 md:px-12 xl:px-6'>
         <div className='mb-10 space-y-4 px-6 md:px-0'>
-          <h2 className='text-3xl font-bold leading-tight sm:text-4xl xl:text-5xl'>
+          <h2 data-aos="fade-down" className='text-3xl font-bold leading-tight sm:text-4xl xl:text-5xl'>
             We have some{' '}
             <span className='bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent'>
               Fans
@@ -40,8 +40,8 @@ function Testimonials() {
           </h2>
         </div>
 
-        <div className='md:columns-2 lg:columns-3 gap-8 space-y-8'>
-          <div className='aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
+        <div  className='md:columns-2 lg:columns-3 gap-8 space-y-8'>
+          <div data-aos="fade-up"  className='aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
             <div className='flex gap-4'>
               <img
                 className='w-12 h-12 rounded-full '
@@ -69,7 +69,7 @@ function Testimonials() {
             </p>
           </div>
 
-          <div className='hidden md:block aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
+          <div data-aos="fade-up" className='hidden md:block aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
             <div className='flex gap-4'>
               <img
                 className='w-12 h-12 rounded-full '
@@ -92,7 +92,7 @@ function Testimonials() {
             </p>
           </div>
 
-          <div className='hidden md:block aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
+          <div data-aos="fade-up" className='hidden md:block aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
             <div className='flex gap-4'>
               <img
                 className='w-12 h-12 rounded-full'
@@ -117,7 +117,7 @@ function Testimonials() {
             </p>
           </div>
 
-          <div className='hidden md:block aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
+          <div data-aos="fade-up" className='hidden md:block aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
             <div className='flex gap-4'>
               <img
                 className='w-12 h-12 rounded-full'
@@ -140,7 +140,7 @@ function Testimonials() {
             </p>
           </div>
 
-          <div className='aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
+          <div data-aos="fade-up"  className='aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
             <div className='flex gap-4'>
               <img
                 className='w-12 h-12 rounded-full'
@@ -164,7 +164,7 @@ function Testimonials() {
             </p>
           </div>
 
-          <div className='aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
+          <div data-aos="fade-up"  className='aspect-auto p-8 border border-secondary border-opacity-30  rounded-3xl bg-secondary bg-opacity-10   shadow-gray-600/10 '>
             <div className='flex gap-4'>
               <img
                 className='w-12 h-12 rounded-full '
