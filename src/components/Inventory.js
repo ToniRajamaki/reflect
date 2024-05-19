@@ -5,7 +5,7 @@ import Search from '../components/Search';
 
 function Inventory() {
   return (
-    <section id="new-features" className="py-8 bg-white sm:py-10 lg:py-16">
+    <section id="features" className="py-8 bg-white sm:py-10 lg:py-16">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-bold leading-tight sm:text-4xl xl:text-5xl">

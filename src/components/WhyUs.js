@@ -6,7 +6,8 @@ import '../styles/WhyUs.css'
 
 const WhyUs = () => {
   return (
-  <section className="bg-white-900">
+  <section className="bg-white-900"
+  id='about-us'>
   <div className="grid max-w-screen-xl text-left  px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
     <div className="mr-auto place-self-center lg:col-span-7">
       <h1

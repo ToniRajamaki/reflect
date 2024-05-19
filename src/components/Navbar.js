@@ -4,7 +4,9 @@ import React from 'react'
 const Navbar = () => {
 
   return (
-    <nav className='flex w-full absolute flex-wrap items-center justify-between z-50 p-3 bg-transparent bg-opacity-0 '>
+    <nav className='flex w-full absolute flex-wrap items-center justify-between z-50 p-3 bg-transparent bg-opacity-0 '
+    id='home'>
+      
       <div
       className='bg-indigo-100  rounded-md p-2 bg-opacity-70'>
         <img
@@ -20,29 +22,34 @@ const Navbar = () => {
           Home
         </a>
         <a
-          href='#services'
+          href='#features'
           className='font-semibold text-lg block md:inline-block xl:mx-4 hover:text-secondary px-3 hover:border-b-2 hover:border-secondary hover:-translate-y-1 transition-all  py-3 '>
           Services
         </a>
         <a
-          href='#aboutus'
+          href='#about-us'
           className='font-semibold text-lg block md:inline-block xl:mx-4 hover:text-secondary px-3 hover:border-b-2 hover:border-secondary hover:-translate-y-1 transition-all  py-3 '>
-          About us
+          Mission
         </a>
         <a
-          href='#gallery'
+          href='#achievements'
           className='font-semibold text-lg block md:inline-block xl:mx-4 hover:text-secondary px-3 hover:border-b-2 hover:border-secondary hover:-translate-y-1 transition-all  py-3 '>
-          Gallery
+          Achievements
         </a>
         <a
-          href='#contactUs'
+          href='#reviews'
           className='font-semibold text-lg block md:inline-block xl:mx-4 hover:text-secondary px-3 hover:border-b-2 hover:border-secondary hover:-translate-y-1 transition-all  py-3 '>
-          Visit Us
+          Reviews
+        </a>
+        <a
+          href='#pricing'
+          className='font-semibold text-lg block md:inline-block xl:mx-4 hover:text-secondary px-3 hover:border-b-2 hover:border-secondary hover:-translate-y-1 transition-all  py-3 '>
+          Pricing
         </a>
       </div>
 
       <div className='toggle w-full text-end hidden md:flex md:w-auto px-2 py-2 md:rounded'>
-        <a href='tel:+123'>
+       
           <div className='flex justify-end '>
           <a
           href='#'
@@ -50,7 +57,6 @@ const Navbar = () => {
           Join us!
         </a>
           </div>
-        </a>
       </div>
 
       <div className='flex md:hidden'>

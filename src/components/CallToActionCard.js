@@ -3,7 +3,7 @@ import '../styles/CallToActionCard.css'
 
 function CallToActionCard() {
   return (
-    <div className=''>
+    <div className='' id='pricing'>
       <div>
         <h2 className='text-3xl font-bold tracki text-center mt-12 sm:text-5xl '>
           Pricing
@@ -13,7 +13,7 @@ function CallToActionCard() {
         </p>
       </div>
 
-      <div className='mt-24 lg:mx-8 flex justify-center gap-12 flex-wrap  ' >
+      <div className='mt-24 lg:mx-8 flex justify-center gap-12 flex-wrap  '>
         <div className='relative p-8 m-0 border border-secondary w-96 border-opacity-30  rounded-xl bg-secondary bg-opacity-10   shadow-gray-600/10 flex flex-col'>
           <div className='flex-1'>
             <h3 className='text-xl font-semibold '>Free</h3>
@@ -31,9 +31,9 @@ function CallToActionCard() {
                   viewBox='0 0 24 24'
                   fill='none'
                   stroke='currentColor'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
+                  strokeWidth='2'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
                   className='flex-shrink-0 w-6 h-6 text-primary'
                   aria-hidden='true'>
                   <polyline points='20 6 9 17 4 12'></polyline>
@@ -48,9 +48,9 @@ function CallToActionCard() {
                   viewBox='0 0 24 24'
                   fill='none'
                   stroke='currentColor'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
+                  strokeWidth='2'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
                   className='flex-shrink-0 w-6 h-6 text-primary'
                   aria-hidden='true'>
                   <polyline points='20 6 9 17 4 12'></polyline>
@@ -65,9 +65,9 @@ function CallToActionCard() {
                   viewBox='0 0 24 24'
                   fill='none'
                   stroke='currentColor'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
+                  strokeWidth='2'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
                   className='flex-shrink-0 w-6 h-6 text-primary'
                   aria-hidden='true'>
                   <polyline points='20 6 9 17 4 12'></polyline>
@@ -77,10 +77,10 @@ function CallToActionCard() {
             </ul>
           </div>
           <a
-          href='#'
-          className='font-semibold text-lg px-5 py-3  leading-6 text-secondary  bg-indigo-100  rounded-md   hover:bg-indigo-200 -800 focus:outline-none focus:shadow-outline focus:border-indigo-300'>
-          Sign up for free
-        </a>
+            href='#'
+            className='font-semibold text-lg px-5 py-3  leading-6 text-secondary  bg-indigo-100  rounded-md   hover:bg-indigo-200 -800 focus:outline-none focus:shadow-outline focus:border-indigo-300'>
+            Sign up for free
+          </a>
         </div>
         <div className='relative p-8 border border-secondary w-96  border-opacity-30  rounded-xl bg-secondary bg-opacity-10   shadow-gray-600/10 flex flex-col'>
           <div className='flex-1'>
@@ -92,7 +92,9 @@ function CallToActionCard() {
               <span className='text-5xl font-semibold tracking-tight'>$12</span>
               <span className='ml-1 text-xl font-semibold'>/month</span>
             </p>
-            <p className='mt-6 '>You want to learn and have a personal assistant</p>
+            <p className='mt-6 '>
+              You want to learn and have a personal assistant
+            </p>
             <ul role='list' className='mt-6 space-y-6'>
               <li className='flex'>
                 <svg
@@ -102,9 +104,9 @@ function CallToActionCard() {
                   viewBox='0 0 24 24'
                   fill='none'
                   stroke='currentColor'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
+                  strokeWidth='2'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
                   className='flex-shrink-0 w-6 h-6 text-primary'
                   aria-hidden='true'>
                   <polyline points='20 6 9 17 4 12'></polyline>
@@ -119,9 +121,9 @@ function CallToActionCard() {
                   viewBox='0 0 24 24'
                   fill='none'
                   stroke='currentColor'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
+                  strokeWidth='2'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
                   className='flex-shrink-0 w-6 h-6 text-primary'
                   aria-hidden='true'>
                   <polyline points='20 6 9 17 4 12'></polyline>
@@ -136,9 +138,9 @@ function CallToActionCard() {
                   viewBox='0 0 24 24'
                   fill='none'
                   stroke='currentColor'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
+                  strokeWidth='2'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
                   className='flex-shrink-0 w-6 h-6 text-primary'
                   aria-hidden='true'>
                   <polyline points='20 6 9 17 4 12'></polyline>
@@ -153,9 +155,9 @@ function CallToActionCard() {
                   viewBox='0 0 24 24'
                   fill='none'
                   stroke='currentColor'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
+                  strokeWidth='2'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
                   className='flex-shrink-0 w-6 h-6 text-primary'
                   aria-hidden='true'>
                   <polyline points='20 6 9 17 4 12'></polyline>
@@ -170,9 +172,9 @@ function CallToActionCard() {
                   viewBox='0 0 24 24'
                   fill='none'
                   stroke='currentColor'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
+                  strokeWidth='2'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
                   className='flex-shrink-0 w-6 h-6 text-primary'
                   aria-hidden='true'>
                   <polyline points='20 6 9 17 4 12'></polyline>
@@ -182,11 +184,10 @@ function CallToActionCard() {
             </ul>
           </div>
           <a
-        href="#"
-        className="font-semibold text-lg px-5 py-3  mt-8 leading-6 text-white bg-gradient-to-b from-secondary  to-primary rounded-md transition-transform duration-300 transform hover:brightness-90 focus:outline-none focus:shadow-outline"
-      >
-        Sign up now!
-      </a>
+            href='#'
+            className='font-semibold text-lg px-5 py-3  mt-8 leading-6 text-white bg-gradient-to-b from-secondary  to-primary rounded-md transition-transform duration-300 transform hover:brightness-90 focus:outline-none focus:shadow-outline'>
+            Sign up now!
+          </a>
         </div>
       </div>
     </div>
