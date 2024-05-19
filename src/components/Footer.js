@@ -16,7 +16,7 @@ function Footer() {
           <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
             <div className='space-y-4'>
               <div>
-                <a href='/'>
+                <a href="#">
                   <div className='flex items-center space-x-2 text-2xl font-medium'>
                     <span>
                       <img
@@ -34,7 +34,7 @@ function Footer() {
               </div>
               <div className='flex space-x-2'>
                 <a
-                  href=''
+                  href='#'
                   target='_blank'
                   className='text-gray-200 hover:text-gray-200'>
                   <span className='sr-only'>Linkedin</span>
@@ -50,7 +50,7 @@ function Footer() {
                   </svg>
                 </a>
                 <a
-                  href=''
+                  href='#'
                   target='_blank'
                   className='text-gray-200 hover:text-gray-200'>
                   <span className='sr-only'>Twitter</span>
@@ -73,21 +73,21 @@ function Footer() {
                   <ul role='list' className='mt-6 space-y-4'>
                     <li>
                       <a
-                        href='/aiplatform'
+                        href='#'
                         className='text-md leading-6 text-gray-300 hover:text-gray-50'>
                         AI Platform
                       </a>
                     </li>
                     <li>
                       <a
-                        href='/aialgorithms'
+                        href='#'
                         className='text-md leading-6 text-gray-300 hover:text-gray-50'>
                         AI Algorithms
                       </a>
                     </li>
                     <li>
                       <a
-                        href='/industryapplications'
+                        href='#'
                         className='text-md leading-6 text-gray-300 hover:text-gray-50'>
                         Industry Applications
                       </a>
@@ -101,21 +101,21 @@ function Footer() {
                   <ul role='list' className='mt-6 space-y-4'>
                     <li>
                       <a
-                        href='/predictiveanalysis'
+                        href='#'
                         className='text-md leading-6 text-gray-300 hover:text-gray-50'>
                         Predictive Analysis
                       </a>
                     </li>
                     <li>
                       <a
-                        href='/customerexperience'
+                        href='#'
                         className='text-md leading-6 text-gray-300 hover:text-gray-50'>
                         Customer Experience
                       </a>
                     </li>
                     <li>
                       <a
-                        href='/automation'
+                        href='#'
                         className='text-md leading-6 text-gray-300 hover:text-gray-50'>
                         Automation
                       </a>
@@ -131,35 +131,35 @@ function Footer() {
                   <ul role='list' className='mt-6 space-y-4'>
                     <li>
                       <a
-                        href='/pricing'
+                        href='#'
                         className='text-md leading-6 text-gray-300 hover:text-gray-50'>
                         Pricing
                       </a>
                     </li>
                     <li>
                       <a
-                        href='/blog'
+                        href='#'
                         className='text-md leading-6 text-gray-300 hover:text-gray-50'>
                         Blog
                       </a>
                     </li>
                     <li>
                       <a
-                        href='/casestudies'
+                        href='#'
                         className='text-md leading-6 text-gray-300 hover:text-gray-50'>
                         Case Studies
                       </a>
                     </li>
                     <li>
                       <a
-                        href='/terms'
+                        href='#'
                         className='text-md leading-6 text-gray-300 hover:text-gray-50'>
                         Terms of Service
                       </a>
                     </li>
                     <li>
                       <a
-                        href='/privacy'
+                        href='#'
                         className='text-md leading-6 text-gray-300 hover:text-gray-50'>
                         Privacy Policy
                       </a>
@@ -173,21 +173,21 @@ function Footer() {
                   <ul role='list' className='mt-6 space-y-4'>
                     <li>
                       <a
-                        href='/aboutus'
+                        href='#'
                         className='text-md leading-6 text-gray-300 hover:text-gray-50'>
                         About Us
                       </a>
                     </li>
                     <li>
                       <a
-                        href='/careers'
+                        href='#'
                         className='text-md leading-6 text-gray-300 hover:text-gray-50'>
                         Careers
                       </a>
                     </li>
                     <li>
                       <a
-                        href='/contactus'
+                        href='#'
                         className='text-md leading-6 text-gray-300 hover:text-gray-50'>
                         Contact Us
                       </a>
